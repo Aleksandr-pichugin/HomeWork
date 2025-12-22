@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Home Work.iml" filepath="$PROJECT_DIR$/Home Work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Work 11.12.2025/Work 11.12.2025.iml" filepath="$PROJECT_DIR$/Work 11.12.2025/Work 11.12.2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions/exceptions.iml" filepath="$PROJECT_DIR$/exceptions/exceptions.iml" />
     </modules>
   </component>
 </project>

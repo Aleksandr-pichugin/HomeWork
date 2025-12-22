@@ -1,19 +1,18 @@
-import java.awt.*;
+import java.util.List;
 
-void main() {
-    Shape[] shapes={
-            new Shape(),
-            new Circle(5),
-            new Rectangle(4,5.5)
-    };
-    ShapeUtils shapeUtils = new ShapeUtils();
+public class Main {
+    public static void main(String[] args) {
 
-    for (Shape s : shapes){
-        System.out.println(s.area());
-        shapeUtils.printArea(s);
+        List<Playable> play = new java.util.ArrayList<>();
+
+        play.add(new MusicPlayer());
+        play.add(new VideoPlayer());
+
+        for (Playable p : play) {
+            p.play();
+        }
     }
-    }
-
+}
 
 
 
